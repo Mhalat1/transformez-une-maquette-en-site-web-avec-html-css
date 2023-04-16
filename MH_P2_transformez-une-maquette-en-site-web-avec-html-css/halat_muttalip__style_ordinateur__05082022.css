@@ -1,0 +1,486 @@
+
+@media screen and (min-width: 992px){
+  header{
+    height: 400px;
+    margin-left: 47px;
+  }
+  .block_header {
+    width: 2880px;
+  }
+  .block_body {
+    justify-content: space-between;
+    height: 1162px;
+    width: 1260px;
+  }
+  .bas_page {
+    display: flex;
+    background-color: #eeecec;
+    height: 202px;
+    width: 1350px;
+  } 
+  body {    
+    margin-right: 47px;
+    width: 1256px;
+    
+  }
+  /*________________header________________*/
+  
+  #logo_img {
+    width: 65px;
+    height: 35px;
+    margin-left: 32px;
+    
+  }
+  /*__________liens en haut à droite__________*/
+  .haut_page{
+    flex-direction: row;
+    height: 123px;
+  }
+  .block_1 {
+    display: flex;
+    height: 30px;
+    width: 768px;
+  }
+  #heb {
+    text-align: center;
+    padding-right: 20px;
+    padding-left: 20px;
+    padding-top: 47px;
+    margin-left: 950px;
+    margin-right: 20px;
+    color: #5474df;
+    border-top: 2px solid #5474df;
+    font-size: 14px;
+  }
+  #act{
+    text-align: center;
+    padding-right: 20px;
+    padding-left: 20px;
+    padding-bottom: 28px;
+    padding-top:47px;
+    color: #000000;
+    border-top: 2px solid #e9e9e9;
+    
+    font-size: 14px;
+  }
+  
+  #heb:hover {
+    text-align: center;
+    padding-right: 20px;
+    padding-left: 20px;
+    padding-top: 45px;
+    color: #5474df;
+    border-top: 2px solid #5474df;
+  }
+  #act:hover {
+    text-align: center;
+    padding-right: 20px;
+    padding-left: 20px;
+    padding-top: 45px;
+    color: #5474df;
+    border-top: 2px solid #5474df;
+  }
+  /* le deux titres */
+  .Texte h1 {
+    font-size: 20px;
+    margin-bottom: 11px;
+    font-family: "Times New Roman", Times, serif;
+    font-weight: bold;
+    
+    margin-top: 0px;
+  }
+  
+  .Texte h2 {
+    font-size: 14px;
+    margin-bottom: 18px;
+    font-weight: normal;
+  }
+  
+  .barre_de_recherche {
+    display: flex;
+    border-radius: 20px 20px 20px 20px;
+    overflow: hidden;
+    border: 4px solid #F2F2F2;
+    height: 50px;
+    position: absolute;
+    width: 435px;
+  }
+  #image_recherche {
+    font-size: 26px;
+    width: 50px;
+    height: 50px;
+    border-radius: 20% 0% 0% 20%;
+    background-color: #f2f2f2;
+    border-style: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  #destination {
+    padding: 15px;
+    width: 221px;
+    height: 20px;
+    font-weight: bold;
+    border-style: none;
+    font-size: 14px;
+  }
+  #rechercher {
+    background-color: #0065fc;
+    font-size: 14px;
+    width: 138px;
+    height: 52px;
+    border-style: none;
+    color: white;
+    font-weight: bold;
+    position: absolute;
+  }
+  .block_recherche{
+    display: none;
+  
+  }
+  .les_filtres {
+    display: flex;
+    align-items: center;
+    font-weight: bold;
+    margin-top: 100px;
+    height: 50px;
+  }
+  
+  .les_filtres input {
+    height: 50px;
+    padding-left: 45px;
+    padding-right: 20px;
+    margin-right: 20px;
+    font-weight: bold;
+    border-radius: 0px 45px 45px 0px;
+    font-size: 20px;
+    background-color: white;
+    border: solid 2px #F2F2F2;
+    margin-left: 25px;
+  }
+  .les_filtres input:hover {
+    border: 2px solid  #5474df;
+  }
+  .les_filtres p {
+    margin-right:20px;
+    font-size: 20px;
+  }
+  
+    #image_filtres1,   #image_filtres2,   #image_filtres3,   #image_filtres4 {
+    height: 50px;
+    width: 50px;
+    border-radius: 45px 45px 45px 45px;
+    background-color: #F2F2F2;
+    color: #0065FC;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    font-size: 20px;
+    
+  }
+  
+  .filtre,
+  .Economique,
+  .Famillial,
+  .Romantique,
+  .Animaux_Autorises {
+    margin-right: 15px;
+    border: none;
+  }
+  
+  .info {
+    display: flex;
+    margin-bottom: 40px;
+    margin-top:31px;
+    margin-right: 9px;
+    align-items: center;
+    height: 23px;
+  }
+  .info p {
+    font-size: 14px;
+    margin-top: 30px;
+    margin-bottom: 35px;
+  }
+  
+  .info i {
+    font-size: 14px;
+    margin-right: 8px;
+  }
+  #image_info {
+    height: 23px;
+    width: 23px;
+    margin-top: 30px;
+    margin-bottom: 35px;
+    border-radius: 45px 45px 45px 45px;
+    border: 1px solid #F2F2F2;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #0065fc;
+  }
+  /*-------------------fin header--------------------*/
+  .block_hebergement {
+    display: flex;
+    justify-content: space-between;
+    height: 590px;
+    width: 1263px;
+    margin:0px 47px 0px 47px;
+  }
+  #note1, #note2, #note3, #note4, #note5, #note6, #note7, #note8, #note9 {
+    font-size: 11px;
+    color:#0065fc;
+  }
+  #note02{
+    font-size: 20px;
+    width: 20px;
+  }
+
+  /* Par défaut, une étoile est en gris*/
+.fa-star {
+	color: gray;
+	padding: 2px;
+}
+/* Si elle porte en plus la classe '.blue', elle sera en bleu. */
+.fa-star.blue {
+	color: #5474df;
+}
+
+	/* Le groupe '.stars' positionne les étoiles
+		 les unes à côté des autres sans espacements. */
+	.stars {
+		display: inline-flex;
+		justify-content: center;
+		font-size: 12px;
+	}
+
+	/* A l'état :hover sur le parent '.rating',
+		 on force TOUTES les étoiles à passer en jaune. */
+	.stars:hover .fa-star {
+		color: #5474df
+	}
+	/* Et si la souris survole une étoile en particulier,
+		 on sélectionne toutes les étoiles qui sont APRÈS celle-ci
+		 grâce à l'opérateur '~' et on les force en GRIS */
+	.stars .fa-star:hover ~ .fa-star {
+		color: gray;
+	}
+
+  .gauche {
+    background-color: #F2F2F2;
+    border-radius: 10px 10px 10px 10px;
+    width: 828px;
+    height: 591px;
+  }
+  .case1, .case2,.case3,.case4,.case5,.case6 {
+    margin: 14px;
+    width: 232px;
+    height: 188px;
+    background-color: white;
+    border-radius: 20px 20px 20px 20px;
+    box-shadow: 1px 1px 2px 2px #dfdfdf;
+  }
+  .case7, .case8, .case9{
+    width: 323px;
+    margin: 0px 36px 30px;
+  }
+  
+  
+  .cases_gauche{
+    
+    display: flex;
+    flex-wrap: wrap;
+    margin: 0px 22px;
+  }
+  .image_description_haut_gauche{  
+      border-radius: 10px 10px 10px 10px;
+      margin-bottom: 30px;
+      box-shadow: 0px 0px 5px 2px #dfdfdf;;
+  }
+  
+  .gauche h1 {
+    margin-right: 300px;
+    margin-left: 14px;
+    margin-top: 50px;
+    font-size: 20px;
+  }
+  .gauche h2 {
+    font-size: 11px;
+    margin: 5px 0px 10px 15px;
+  }
+  .gauche h3 {
+    font-size: 11px;
+    margin: 0px 0px 10px 15px;
+    font-weight: normal;
+    margin-top: 10px;
+  }
+  
+  .fill {
+    object-fit: fill;
+    height: 106px;
+    width: 222px;
+    padding: 5px;
+    overflow: hidden;
+    border-radius: 20px 20px 0px 0px;
+  }
+  
+  .droite {
+    background-color: #F2F2F2;
+    flex-wrap: wrap;
+    border-radius: 20px 20px 20px 20px;
+    width: 395px;
+    height: 590px;
+    align-items: center;
+    display: flex;
+  }
+  .droite ul {
+    flex-direction: column;
+  }
+  #image_droite1,  #image_droite2,  #image_droite3  {
+    width: 120px;
+    height: 126px;
+    border-radius: 20px 0% 0% 20px;
+  }
+  .description_droite{
+    background-color: #ffffff;
+    box-shadow: 1px 1px 2px 2px #dfdfdf;
+    border-radius: 20px 20px 20px 20px;
+    padding: 5px;
+    height: 126px;
+    display: flex;
+  }
+  .titres_note_droite{
+    flex-direction: column;
+    margin-left:40px;
+    
+  }
+  .droite h1 {
+    font-size: 20px;
+    margin: 30px 0px 0px 20px;
+    display: flex;
+    width: 270px;
+    justify-content: space-between;
+    width: 300px;
+  }
+  
+  .droite h2 {
+    font-size: 11px;
+    margin-bottom: 13px;
+    margin-top: 16px;
+  }.droite h3 {
+    font-size: 11px;
+    margin-bottom: 40px;
+    font-weight: normal;
+  }
+  #afficher_plus{
+    margin: 20px 0px 0px 25px;
+    position: absolute;
+  }
+  
+  
+  /*------------------fin premiere partie body----------------------*/
+  .block_activite {
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 10px;
+    margin-left: 47px;
+    width: 1350px;
+  }
+  .partie2,.partie3,.partie4{
+  margin-left: 42px;
+  }
+  .partie1,
+  .partie2,
+  .partie3,
+  .partie4 {
+    width: 283px;
+    display: flex;
+    flex-direction: column;
+  }
+  .block_image_description {
+    border-radius: 30px 30px 30px 30px;
+    margin-bottom: 42px;
+    box-shadow: 1px 1px 2px 2px #dfdfdf;
+    
+  }
+  #image_grande1,  #image_grande2  {
+    height: 366px;
+    width: 283px;
+    overflow: hidden;
+    border-radius: 30px 30px 0px 0px;
+    
+  }
+  #image_moyenne2_1,   #image_moyenne2_2, #image_moyenne2_3{
+    height: 169px;
+    width: 283px;
+    overflow: hidden;
+    border-radius: 30px 30px 0px 0px;
+  }
+  #image_moyenne2_2, #image_moyenne2_3{
+  
+    height: 142px;
+    width: 283px;
+    overflow: hidden;
+    border-radius: 30px 30px 0px 0px;
+  }
+  #image_petite {
+    height: 112px;
+    width: 283px;
+    overflow: hidden;
+    border-radius: 30px 30px 0px 0px;
+  }
+  #image_moyenne2 {
+    height: 139px;
+    width: 283px;
+    overflow: hidden;
+    border-radius: 30px 30px 0px 0px;
+  }
+  .block_activite h1 {
+    margin-top: 60px;
+    width: 1260px;
+    height: 11px;
+    font-size: 22px;
+    margin-right: 600px;
+    margin-bottom: 25px;
+  }
+  .block_activite h2 {
+    padding-left: 20px;
+    margin:0px;
+    width: 205px;
+    height: 38px;
+    font-size: 10px;
+  }
+  /*----------------bas de page--------------------*/
+  
+  ul {
+    list-style: none;
+    margin: 43px 60px 50px 47px;
+  }
+  
+  .bas_page ul h2 {
+    font-size: 15px;
+    margin-bottom: 15px;
+    font-weight: normal;
+  }
+  .bas_page h1 {
+    font-size: 15px;
+    margin: 0px 0px 20px 0px;
+  }
+  .bas_gauche{
+    width: 152px;
+    height: 202px;
+  }
+  .bas_centre{
+    width: 110px;
+    height: 202px;
+  }
+  .bas_droite {
+    width:76px;
+    height: 202px;
+  }
+  a {
+    text-decoration: none;
+    color: black;
+  }
+  }

@@ -1,0 +1,474 @@
+
+
+  @media all and (max-width: 768px){
+    .block_header {
+      width: 730px;
+      height: 1100px;
+      margin-left: 19px;
+      margin-right: 19px;}
+  
+      .block_body {
+          justify-content: space-between;
+          height: 4550px;
+          width: 730px;
+          }
+      .bas_page {
+          padding: 30px 0px 30px 0px;
+          display: flex;
+          background-color: #eeecec;
+          width: 768px;
+          flex-direction: column;
+        }
+          
+          
+      body {
+          margin:0;
+          font-family: 'Raleway';
+          } 
+          .haut_page {
+            display: flex;
+            flex-direction: column;
+          }        
+  /*________________header________________*/
+  
+
+  #logo_img {
+    width: 155px;
+    height: 80px;
+    margin: 0px 0px 90px 80px;}
+    .haut_page{ 
+        display: flex;
+        flex-direction: column;
+        width: 768px;
+        height: 220px;
+        }
+    .logo{
+            margin-top: 35px;
+            width: 730px;
+            display: flex;
+            justify-content: center;
+          }
+    
+  /*__________liens en haut à droite__________*/    .block_1 {
+      margin-bottom: 30px;
+      margin-top: 35px;
+      display: flex;
+      height: 30px;
+      width: 768px;
+    }
+    
+    #heb {
+      text-align: center;
+      margin-right: 0px;
+      margin-left: 0px;
+      color: #5474df;
+      border-bottom: 7px solid #5474df;
+      width: 384px;
+      font-size: 33px;
+      padding-bottom: 62px;
+    }
+    #act{
+        text-align: center;
+        color: #000000;
+        border-bottom: 7px solid #e9e9e9;
+        width: 384px;
+        font-size: 33px;
+        padding-bottom: 62px;
+    }
+    
+    #heb:hover {
+      text-align: center;
+      padding-bottom: 64px;
+      color: #5474df;
+      border-bottom: 7px solid #5474df;
+      width: 496px;
+    }
+    #act:hover {
+      text-align: center;
+      padding-bottom: 64px;
+      color: #5474df;
+      border-bottom: 7px solid #5474df;
+      width: 496px;
+    } 
+
+  /* le deux titres */
+    .Texte{
+      margin-top: 170px;
+      margin-bottom: 94px;
+    }
+  .Texte h1 {
+    font-size: 55px;
+    margin-bottom: 40px;
+    font-weight: bold;
+
+  }
+  
+  .Texte h2 {
+    font-size: 40px;
+    margin-bottom: 40px;
+    font-weight: normal;
+  }
+  .barre_de_recherche {
+    display: flex;
+    border-radius: 45px 45px 45px 45px;
+    margin-bottom: 70px;
+    overflow: hidden;
+  }
+  #image_recherche {
+    width: 140px;
+    height: 136px;
+    border-radius: 20px 0px 0px 20px;
+    background-color: #f2f2f2;
+    border-style: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 39px;
+  }
+  
+  #destination {
+    width: 550px;
+    padding-left: 50px;
+    font-weight: bold;
+    border-style: none;
+    font-size: 27px;
+  }
+  .barre_de_recherche form {
+    border-bottom: 2px solid #f2f2f2;
+    border-top: 2px solid #f2f2f2;
+    height: 133px;
+    width: 743px;
+    border-radius: 0px 45px 45px 0px;
+    display: flex;
+    overflow: hidden;
+  }
+  #rechercher {
+    display: none;
+  }
+  .block_recherche{
+    height: 70px;
+    width: 140px;
+    font-size: 35px;
+    background-color: #0065fc;
+    text-align: center;
+    padding: 45px 0px 20px 0px;
+    color: white;
+  }
+  .les_filtres {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    width: 877px;
+    font-weight: bold;
+    margin-top: 19px;
+    font-size: 37px;
+  }
+  .les_filtres input:hover {
+    border: 2px solid  #5474df;
+  }
+  .les_filtres input {
+    padding-left: 100px;
+    height: 101px;
+    padding-right: 40px;
+    font-weight: bold;
+    border-radius: 45px 45px 45px 45px;
+    font-size: 32px;
+    background-color: white;
+    margin-left: 25px;
+    margin-right: 26px;
+    border: solid 4px #F2F2F2;
+    margin-bottom: 32px;
+  }
+  .les_filtres p {
+    margin-right: 650px;
+    font-size: 52px;
+  }
+  
+  #image_filtres1,   #image_filtres2,   #image_filtres3,   #image_filtres4 {
+    height: 101px;
+    width: 101px;
+    border-radius: 45px 45px 45px 45px;
+    background-color: #deebff;
+    color: #0065fc;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+  }
+
+  
+  .info {
+    display: flex;
+    margin-top: 51px;
+    margin-bottom: 101px;
+    align-items: center;
+    width: 720px;
+  }
+  .info p {
+    font-size: 32px;
+  }
+  .info i {
+    font-size: 27px;
+    margin-right: 27px;
+  }
+  #image_info {
+    height: 62px;
+    width: 62px;
+    border-radius: 45px 45px 45px 45px;
+    border: 2px solid #f2f2f2;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #0065fc;
+  }
+  /*-------------------fin header--------------------*/
+  
+
+  .block_hebergement {
+    display: flex;
+    flex-direction: column-reverse;
+    width: 992px;
+    justify-content: center;
+    margin: 505px 0px 0px 0px;
+  }
+  #note1, #note2, #note3, #note4, #note5, #note6, #note7, #note8, #note9{
+    font-size: 33px;
+    color:#0065fc;
+    font-weight: bolder;
+}
+#note02{
+  font-size: 50px;
+  width: 20px;
+}
+  /* Par défaut, une étoile est en gris*/
+  .fa-star {
+    color: gray;
+    padding: 2px;
+  }
+  /* Si elle porte en plus la classe '.blue', elle sera en bleu. */
+  .fa-star.blue {
+    color: #5474df;
+  }
+  
+    /* Le groupe '.stars' positionne les étoiles
+       les unes à côté des autres sans espacements. */
+    .stars {
+      display: inline-flex;
+      justify-content: center;
+      font-size:27px;
+    }
+  
+    /* A l'état :hover sur le parent '.rating',
+       on force TOUTES les étoiles à passer en jaune. */
+    .stars:hover .fa-star {
+      color: #5474df
+    }
+
+    /* Et si la souris survole une étoile en particulier,
+       on sélectionne toutes les étoiles qui sont APRÈS celle-ci
+       grâce à l'opérateur '~' et on les force en GRIS */
+    .stars .fa-star:hover ~ .fa-star {
+      color: gray;
+    }
+  
+  .gauche {
+    background-color: #ffffff;
+    display: flex;
+    flex-wrap: wrap;
+    border-radius: 10px 10px 10px 10px;
+    width: 992px;
+    flex-direction: column;
+  }
+
+  .case1, .case2,.case3,.case4,.case5,.case6,.case7,.case8 ,.case9 {
+    margin: 0px 23px 27px 23px;
+  }
+  .description_gauche{
+    background-color: #ffffff;
+    margin-bottom: 27px;
+    display: flex;
+    height: 422px;
+    width: 722px;
+    flex-direction: column;
+    border-radius: 30px 30px 30px 30px;
+    box-shadow: 0px 0px 5px 2px #d1d1d1;
+}
+  .image_description_haut_gauche{  
+      border-radius: 10px 10px 10px 10px;
+      margin-bottom: 30px;
+      box-shadow: 0px 0px 5px 2px #d1d1d1;
+  }
+  .gauche h1 {
+    margin: 106px 57px 47px 57px;
+    font-size: 45px;
+    width: 700px;
+  }
+  .gauche h2 {
+    font-size: 30px;
+    margin: 15px 40px 18px 40px;
+  }
+  .gauche h3 {
+    font-size: 25px;
+    margin: 0px 0px 18px 40px;
+    font-weight: normal;
+  
+  }
+  #image_gauche {
+    width: 657px;
+    height: 233px;
+    border-radius: 10px 10px 0px 0px;
+    margin: 10px;
+  }
+  .fill {
+    object-fit: fill;
+    height: 240px;
+    width: 702px;
+    padding: 10px;
+    overflow: hidden;
+    border-radius: 30px 30px 0px 0px;
+  }
+  
+  
+  .droite {
+    background-color: #eeecec;
+    flex-wrap: wrap;
+    border-radius: none;
+    height: 1500px;
+    align-items: center;
+    display: flex;
+  }
+  .droite ul {
+    flex-direction: column;
+  }
+  #image_droite1,  #image_droite2,  #image_droite3  {
+    width: 270px;
+    height: 286px;
+    border-radius: 45px 0px 0px 45px;
+    padding: 10px;
+  }
+  .description_droite{
+    background-color: #ffffff;
+    border-radius: 45px 45px 45px 45px;
+    box-shadow: 1px 1px 2px 2px #b8b8b8;
+    margin-bottom: 24px;
+    display: flex;
+    height: 306px;
+    width: 722px;
+  }
+  .droite h1 {
+    font-size: 45px;
+    margin: 0px 20px 0px 20px;
+    display: flex;
+    justify-content: space-between;
+    width: 600px;
+  }
+  .droite h2 {
+    font-size: 27px;
+    margin: 40px 0px 8px 40px;
+  }.droite h3 {
+    font-size: 27px;
+    margin: 25px 0px 90px 40px;
+    font-weight: normal;
+  }
+  #afficher_plus{
+    margin: 70px 57px 120px 57px;
+    font-size: 32px;
+    font-weight: bold;
+  
+}
+  
+  /*------------------fin premiere partie body----------------------*/
+  .block_activite {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    width: 992px;
+  }
+  .partie1,
+  .partie2_1,
+  .partie2_2,
+  .partie3,
+  .partie4_1,
+  .partie4_2 {
+    display: flex;
+    flex-direction: column;
+    margin: 0px 23px 57px 23px;
+  }
+ 
+  .block_image_description {
+    border-radius: 30px 30px 30px 30px;
+    margin-bottom: 30px;
+    box-shadow: 0px 0px 5px 2px #d1d1d1;
+    width: 722px;
+    height: 458px;
+  }
+  #image_grande1,  #image_grande2  {
+    height: 354px;
+    width: 722px;
+    overflow: hidden;
+    border-radius: 30px 30px 0px 0px;
+  }
+  #image_moyenne2_1,   #image_moyenne2_2, #image_moyenne2_3{
+    height: 354px;
+    width: 722px;
+    overflow: hidden;
+    border-radius: 30px 30px 0px 0px;
+  }
+  #image_petite {
+    height: 354px;
+    width: 722px;
+    overflow: hidden;
+    border-radius: 30px 30px 0px 0px;
+  }
+  #image_moyenne2 {
+    height: 354px;
+    width: 722px;
+    overflow: hidden;
+    border-radius: 30px 30px 0px 0px;
+  }
+  .block_activite h1 {
+    width: 450px;
+    font-size: 32px;
+    margin: 0px 57px 86px 57px;
+  }
+  .block_activite h2 {
+    padding-left: 20px;
+    margin: 0px;
+    width: 722px;
+    height: 110px;
+    font-size: 28px;
+}
+  /*----------------bas de page--------------------*/
+  
+  ul {
+    list-style: none;
+    margin-right: 160px;
+  }
+  .bas_page ul h2 {
+    font-size: 32px;
+    margin-bottom: 51px;
+    
+    font-weight: normal;
+  }
+  .bas_page ul h1 {
+    font-size: 32px;
+    margin-bottom: 62px;
+    
+  }
+  .bas_gauche{
+    width: 152px;
+    height: 78px;
+  }
+  .bas_centre{
+    width: 110px;
+    height: 57px;
+  }
+  .bas_droite {
+    width:76px;
+    height: 58px;
+  }
+  a {
+    text-decoration: none;
+    color: black;
+  }
+}
